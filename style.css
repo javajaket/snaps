@@ -40,7 +40,7 @@ body {
   border-bottom: 1px solid #eee;
 }
 .header_top_container {
-  position: absolute;
+  position: relative;
   width: 1140px;
   min-width: 1140px;
   margin: 0 auto;
@@ -80,8 +80,8 @@ body {
 }
 .right li {
     float: left;
-    font-size: 11px;
-    margin-left: 12px;
+    font-size: 12px;
+    margin-left: 15px;
 }
 .header_middle {
     position: relative;
@@ -89,8 +89,8 @@ body {
     border-bottom: 1px solid #eee;
 }
 .header_middle_container {
-    position: absolute;
-    width:1200px;
+    position: relative;
+    width:1140px;
     height: 100px;
     margin: 0 auto;
     padding: 0 30px;
@@ -105,7 +105,45 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+.header_middle_left ul {
+    padding: 0 0 0 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
 .header_middle_left li {
+    float: left;  
+    margin: 0 36px 0 0;
+}
+.header_middle_left li a {
+    color: #191919;
+    padding: 3px 2px;
+    font-weight: 700;
+    font-family: "yoonGothicPro760";
+    font-size: 15.5px;
+}
+.header_middle_left .dashbord {
+    color:#eee;
+    font-size: 17px;
+}
+.header_meddle_right {
+    float: right;
+    display: table;
+    height: 100px;
+}
+.header_meddle_right li {
     float: left;
-    
+    padding-left: 12.5px;
+}
+.header_meddle_right ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+.header_meddle_right a {
+    font-size: 14px;
+}
+.icon_top_cart {
+    background: url(images/icon-sprite.svg);
+    background-position: 65.5% 9.4%;
+    width: 38px;
+    height: 38px;
 }
