@@ -19,6 +19,10 @@ div span {
 ul,ol,li {
   list-style: none;
 }
+em {
+  font-size: normal;
+  font-weight: normal;
+}
 body {
   color: #191919;
   font-size: 12px; 
@@ -146,4 +150,41 @@ body {
     background-position: 65.5% 9.4%;
     width: 38px;
     height: 38px;
+}
+.home_wrap .container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    min-width: 1200px;
+}
+.container .board {
+    margin: 0 auto;
+    position: absolute;
+    padding: 180px 0 0 30px;
+    width: 350px;
+}
+.container .board h2 {
+    font-weight: normal;
+    line-height: 45px;
+    font-size: 45px;
+}
+.container .board em {
+    color: #5a8a98;
+}
+.container .board span {
+    line-height: 1.73;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.container .board button {
+    margin-top: 48px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 42px;
+    padding: 0 32px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.container .inner {
+    background: url(images/main_kb_01_180222.jpg) 50% no-repeat;
+    height: 560px;
 }
