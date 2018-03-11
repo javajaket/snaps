@@ -2,3 +2,110 @@ body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, inp
     margin: 0;
     padding: 0;
 }
+html,body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #666;
+    text-decoration: none;
+}
+ul {
+  display: block;
+}
+div span {
+  display: block;
+}
+ul,ol,li {
+  list-style: none;
+}
+body {
+  color: #191919;
+  font-size: 12px; 
+  font-family: "YoonGothicPro740","dotum","돋움","Arial","sans-serif";
+  text-rendering: auto;
+}
+.section:after {
+    display: blcok;
+    content: '';
+    clear: both;
+}
+.wrap {
+  position: relative;
+}
+.header_top {
+  position: relative;
+  height:34px;
+  background: #f9fafc;
+  border-bottom: 1px solid #eee;
+}
+.header_top_container {
+  position: absolute;
+  width: 1140px;
+  min-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+  line-height: 34px;
+}
+.left li:first-child {
+  border-left: 1px solid #eee;
+}
+.left li {
+  float: left;
+  height: 34px;
+  border-right: 1px solid #eee;
+}
+.icon-sprite {
+  height: 31px;
+  line-height: 18px;
+  background: #fff;
+  padding: 5px 16px 0 16px;
+  border-bottom: 1px solid transparent;
+}
+.icon-sprite .snaps span {
+  width: 50px;
+  height: 20px;
+  background: url(images/icon-sprite.svg)
+  no-repeat;
+  background-position: 58.6028% 43%;
+}
+.icon-sprite .on_printme span {
+    width: 83px;
+    height: 20px;
+    background: url(images/icon-sprite.svg) no-repeat;
+    background-position: 45.9% 43%;
+}
+.right {
+    float: right;
+}
+.right li {
+    float: left;
+    font-size: 11px;
+    margin-left: 12px;
+}
+.header_middle {
+    position: relative;
+    height: 101px;
+    border-bottom: 1px solid #eee;
+}
+.header_middle_container {
+    position: absolute;
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 34px;
+}
+.header_middle_left {
+    float: left;
+    display: table;
+    height: 100px;
+}
+.header_middle_left .left_image {
+    display: table-cell;
+    vertical-align: middle;
+}
+.header_middle_left li {
+    float: left;
+    
+}
